@@ -11,6 +11,7 @@ public class PolyServer {
 	public static int PORT = 8081;
 	public static String BASE_URL = "http://localhost:" + PORT + "/";
 	public static LinkedList<String> routes = new LinkedList<String>();
+	public static int count = 0;
 
 
 	// get our instance
@@ -22,6 +23,10 @@ public class PolyServer {
 
 		return instance;
 	}
+	
+	public static String mockMFA() {
+		return "hello" + count++;
+	}
 
 
 	/**
@@ -30,8 +35,7 @@ public class PolyServer {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		PolyServer instance = PolyServer.getInstance();
-		int count = 0;
+		PolyServer.getInstance();
 
 		try {
 			while (true) {
@@ -43,8 +47,8 @@ public class PolyServer {
 					System.out.println("removed:   " + BASE_URL + removed);
 				} 
 				
-				// generate new API
-				routes.add("hello" + count);
+				// generate new API using MFA key
+				routes.add(mockMFA());
 				System.out.println("added:  " + BASE_URL + routes.getLast() + "\n");
 				
 				// add new API
