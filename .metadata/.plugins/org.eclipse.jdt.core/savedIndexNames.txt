@@ -1,0 +1,19 @@
+INDEX VERSION 1.131+/home/tiffany/Projects/poly/.metadata/.plugins/org.eclipse.jdt.core
+3504743328.index
+1400559606.index
+3921894908.index
+2323542986.index
+3332479750.index
+3986956612.index
+4029546313.index
+968211671.index
+1583302035.index
+1151244150.index
+751317878.index
+2212267117.index
+1454894609.index
+2763350171.index
+1436603515.index
+2725241315.index
+999007204.index
+2001545319.index

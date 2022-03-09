@@ -1,0 +1,53 @@
+package broward.ghost.io;
+
+import static spark.Spark.*;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class PolyServer {
+    private static PolyServer instance;
+    public static int PORT = 4567;
+	String POLY_ROUTE = "/hello";
+
+    
+ // get our instance
+    public static PolyServer getInstance() {
+        if (instance == null) {
+            instance = new PolyServer();
+        }
+
+        return instance;
+    }
+
+    public void load() {
+        port(PORT);
+        
+        // reload configuration of DLVR service on localhost
+        get(POLY_ROUTE, (request, response) -> {
+        	POLY_ROUTE = "/newRoute";
+            return "hello " + POLY_ROUTE;
+        });
+    }
+    
+    
+    
+    /**
+     * Load server
+     * @param args
+     */
+    public static void main(String[] args) {
+    	PolyServer instance = PolyServer.getInstance();
+    	
+    	Timer timer = new Timer();
+
+    	timer.schedule( new TimerTask() {
+    	    public void run() {
+    	    	System.out.println("reloading URL");
+    	    	stop();
+    	    	instance.load();
+    	    }
+    	 }, 0, 10*1000);
+    }
+	
+}

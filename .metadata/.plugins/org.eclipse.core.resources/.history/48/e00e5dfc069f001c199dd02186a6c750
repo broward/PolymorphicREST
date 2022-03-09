@@ -1,0 +1,12 @@
+package broward.ghost.io;
+
+import static spark.Spark.*;
+
+public class PolyServer {
+	static String polyRoute = "/hello";
+	
+	public static void main(String[] args) {
+		get(polyRoute, (req, res) -> "Hello World");
+		polyRoute = "/newHello";
+	}
+}

@@ -1,0 +1,64 @@
+package broward.ghost.io;
+
+import static spark.Spark.*;
+
+import java.util.LinkedList;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import spark.Spark;
+
+public class PolyServer {
+	private static PolyServer instance;
+	public static int PORT = 4567;
+	public static String POLY_ROUTE = "/hello";
+	public static LinkedList<String> routes =new LinkedList<String>();
+
+
+	// get our instance
+	public static PolyServer getInstance() {
+		if (instance == null) {
+			instance = new PolyServer();
+		}
+
+		return instance;
+	}
+
+	public void load() {
+
+		// reload configuration of DLVR service on localhost
+		get(POLY_ROUTE, (request, response) -> {
+			return "hello " + POLY_ROUTE;
+		});
+	}
+
+	/**
+	 * Load server
+	 * 
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		PolyServer instance = PolyServer.getInstance();
+		int count = 0;
+
+		try {
+			while (true) {
+				
+				if (count > 0) {
+					boolean result = Spark.unmap(POLY_ROUTE, "get");
+					System.out.println("removed " + POLY_ROUTE);
+				}
+				
+				POLY_ROUTE = "hello" + count;
+				System.out.println("new URL is " + POLY_ROUTE);
+				
+				instance.load();
+				count++;
+				Thread.sleep(10 * 1000);
+			}
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

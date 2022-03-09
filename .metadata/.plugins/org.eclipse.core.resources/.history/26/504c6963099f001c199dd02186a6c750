@@ -1,0 +1,42 @@
+package broward.ghost.io;
+
+import static spark.Spark.*;
+
+public class PolyServer {
+    private static PolyServer instance;
+	static String POLY_ROUTE = "/hello";
+    public static int PORT = 4567;
+    
+ // get our instance
+    public static PolyServer getInstance() {
+        if (instance == null) {
+            instance = new PolyServer();
+        }
+
+        return instance;
+    }
+    
+    private PolyServer() {
+        load();
+    }
+
+    public void load() {
+        port(PORT);
+        
+        // reload configuration of DLVR service on localhost
+        get(POLY_ROUTE, (request, response) -> {
+            return "Hello world";
+        });
+    }
+    
+    
+    
+    /**
+     * Load server
+     * @param args
+     */
+    public static void main(String[] args) {
+        PolyServer.getInstance();
+    }
+	
+}

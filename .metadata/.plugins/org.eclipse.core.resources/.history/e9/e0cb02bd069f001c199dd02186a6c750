@@ -1,0 +1,9 @@
+package broward.ghost.io;
+
+import static spark.Spark.*;
+
+public class PolyServer {
+	public static void main(String[] args) {
+		get("/hello", (req, res) -> "Hello World");
+	}
+}
