@@ -556,3 +556,31 @@
 2022-03-08 16:37:51,918 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/main/resources
 2022-03-08 16:37:51,919 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-03-08 16:37:51,919 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/test/resources
+2022-03-08 16:44:27,776 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:44:27,776 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/main/resources
+2022-03-08 16:44:27,778 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:44:27,778 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/test/resources
+2022-03-08 16:45:18,603 [Worker-42: Launching PolyServer] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:45:18,603 [Worker-42: Launching PolyServer] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/main/resources
+2022-03-08 16:45:18,605 [Worker-42: Launching PolyServer] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:45:18,606 [Worker-42: Launching PolyServer] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/test/resources
+2022-03-08 16:46:28,228 [Worker-43: Launching PolyServer] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:46:28,229 [Worker-43: Launching PolyServer] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/main/resources
+2022-03-08 16:46:28,229 [Worker-43: Launching PolyServer] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:46:28,230 [Worker-43: Launching PolyServer] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/test/resources
+2022-03-08 16:47:15,158 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:47:15,158 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/main/resources
+2022-03-08 16:47:15,159 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:47:15,159 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/test/resources
+2022-03-08 16:47:23,698 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:47:23,699 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/main/resources
+2022-03-08 16:47:23,702 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:47:23,703 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/test/resources
+2022-03-08 16:47:44,137 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:47:44,137 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/main/resources
+2022-03-08 16:47:44,138 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:47:44,139 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/test/resources
+2022-03-08 16:49:04,512 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:49:04,514 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/main/resources
+2022-03-08 16:49:04,516 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 16:49:04,518 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/test/resources
