@@ -584,3 +584,11 @@
 2022-03-08 16:49:04,514 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/main/resources
 2022-03-08 16:49:04,516 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-03-08 16:49:04,518 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/test/resources
+2022-03-08 18:56:29,415 [Worker-37: Launching PolyServer] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 18:56:29,415 [Worker-37: Launching PolyServer] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/main/resources
+2022-03-08 18:56:29,416 [Worker-37: Launching PolyServer] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 18:56:29,416 [Worker-37: Launching PolyServer] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/test/resources
+2022-03-08 18:56:46,459 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 18:56:46,459 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/main/resources
+2022-03-08 18:56:46,461 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-03-08 18:56:46,461 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/tiffany/Projects/poly/Poly/src/test/resources

@@ -45,7 +45,7 @@ public class PolyServer {
 				
 				// generate new API
 				routes.add("hello" + count);
-				System.out.println("added:  " + BASE_URL + routes.getLast());
+				System.out.println("added:  " + BASE_URL + routes.getLast() + "\n");
 				
 				// add new API
 				get(routes.getLast(), (request, response) -> {
