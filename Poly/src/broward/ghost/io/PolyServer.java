@@ -56,7 +56,6 @@ public class PolyServer {
 					return "hello " + routes.getLast();
 				});
 				
-				count++;
 				Thread.sleep(10 * 1000);
 			}
 		} catch (InterruptedException e) {
