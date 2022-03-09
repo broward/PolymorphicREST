@@ -8,7 +8,8 @@ import spark.Spark;
 
 public class PolyServer {
 	private static PolyServer instance;
-	public static int PORT = 4567;
+	public static int PORT = 8081;
+	public static String BASE_URL = "http://localhost:" + PORT + "/";
 	public static LinkedList<String> routes =new LinkedList<String>();
 
 
@@ -16,7 +17,8 @@ public class PolyServer {
 	public static PolyServer getInstance() {
 		if (instance == null) {
 			instance = new PolyServer();
-			routes.add("/initial");
+			routes.add("initial");
+			port(PORT);
 		}
 
 		return instance;
@@ -39,12 +41,12 @@ public class PolyServer {
 				if (count > 0) {
 					String removed = routes.pop();
 					boolean result = Spark.unmap(removed, "get");
-					System.out.println("removed " + removed);
+					System.out.println("removed:   " + BASE_URL + removed);
 				} 
 				
 				// generate new API
 				routes.add("hello" + count);
-				System.out.println("new URL is " + routes.getLast());
+				System.out.println("added:  " + BASE_URL + routes.getLast());
 				
 				// add new API
 				get(routes.getLast(), (request, response) -> {
